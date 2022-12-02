@@ -16,7 +16,7 @@ $(document).ready(function(){
         speed: 1000, //скорость прокрутки (в мс)
         easing: 'linear', //тип анимации
         infinite: true, //будет ли слайдер пролистываться бесконечно
-        autoplay: false, //автоматическое пролистывание
+        autoplay: true, //автоматическое пролистывание
         autoplaySpeed: 1000, //интервал автопролистывания
         pauseOnFocus: true, //прекращение автопролистывания при focus
         pauseOnHover: true, //прекращение автопролистывания при hover
