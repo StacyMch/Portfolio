@@ -15,6 +15,10 @@ body {
     padding: 0 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
 ul {
     padding-inline-start: 0;
 }
@@ -297,6 +301,12 @@ p {
     background-image: url('..//img/json.png');
 }
 
+.logo-docker {
+    background-image: url('..//img/docker.png');
+    border-radius: 0px;
+    height: 22px;
+}
+
 .logo-git {
     background-image: url('..//img/git.png');
 }
@@ -327,6 +337,17 @@ p {
 
 .logo-jquery {
     background-image: url('..//img/jquery.webp');
+}
+
+.logo-laravel {
+    background-image: url('..//img/laravel.jpg');
+    border-radius: 0%;
+}
+
+.logo-mysql {
+    background-image: url('..//img/mysql.png');
+    border-radius: 0%;
+    height: 18px;
 }
 
 .morpheus-wrapper {
@@ -516,6 +537,10 @@ h5, .carousel-caption > p {
     background-image: url('..//img/taskboard.png');
 }
 
+.project-7 {
+    background-image: url('..//img/baloon-shop.jpg');
+}
+
 h4 {
     font-weight: 500;
     text-align: center;
@@ -642,6 +667,14 @@ animation-fill-mode: backwards;
     margin: 20px;
 }
 
+.ref {
+    color: rgb(30, 15, 82);
+}
+
+.ref:hover {
+    color: rgb(49, 26, 133);
+}
+
 .form-container {
     margin: 20px;
 }
@@ -722,7 +755,7 @@ label {
     background-image: url('..//img/telegram.png');
 }
 
-.whatsup {
+.whatsapp {
     background-image: url('..//img/w.png');
 }
 
@@ -881,7 +914,7 @@ label {
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgb(165 141 222 / 85%);
+        background-color: rgb(165 141 222);
         padding: 70px 0 0 0;
         transition: all 0.3s ease 0s;
         overflow: auto;
