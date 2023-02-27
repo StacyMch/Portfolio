@@ -71,3 +71,11 @@ function sendToTelegram() {
     document.getElementById('message').value = '';
 
 }
+
+function redPillow() {
+    document.location='#back'
+}
+
+function bluePillow() {
+
+}
