@@ -522,7 +522,7 @@ h5, .carousel-caption > p {
 }
 
 .project-img {
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 375px;
     height: 250px;
