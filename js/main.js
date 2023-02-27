@@ -37,4 +37,37 @@ $(document).ready(function(){
     });
 });
 
+function sendToTelegram() {
 
+    let name = document.getElementById('typeYourName').value;
+
+    let email = document.getElementById('typeYourEmail').value;
+
+    let message = document.getElementById('message').value;
+
+    let text = 'Сообщение от ' + name + ' с почтой ' + email + ': ' + message;
+    console.log(text);
+
+    //создаём объкт, который умеет отправлять запросы
+    let requestObj = new XMLHttpRequest();
+
+    //собираем ссылку для запроса
+    let link = 'https://api.telegram.org/bot5894230568:AAEmbQKqkq873LKhTEHfikLr7SUgG17sz2g/sendMessage?chat_id=224039891&text=' + text;
+
+    console.log(link);
+
+    //конфигурируем объект
+    requestObj.open('GET', link, false);
+        
+    //отправляем запрос
+    requestObj.send();
+
+    //выводим ответ в консоль
+    console.log('Отправлено');
+
+    //чистим поля
+    document.getElementById('typeYourName').value = '';
+    document.getElementById('typeYourEmail').value = '';
+    document.getElementById('message').value = '';
+
+}
