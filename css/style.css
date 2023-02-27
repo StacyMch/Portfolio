@@ -387,19 +387,19 @@ p {
 
 .pillow {
     position: absolute;
-    top: 360px;
+    bottom: 5%;
     cursor: pointer;
-    height: 50px;
-    width: 50px;
+    height: 150px;
+    width: 150px;
     background-color: transparent;
 }
 
 .red {
-    left: 90px;
+    left: 5%;
 }
 
 .blue {
-    right: 90px;
+    right: 5%;
 }
 
 .portfolio {
@@ -559,6 +559,10 @@ h5, .carousel-caption > p {
 
 .project-8 {
     background-image: url('..//img/messenger.png');
+}
+
+.project-9 {
+    background-image: url('..//img/delivery.png');
 }
 
 
