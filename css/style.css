@@ -565,6 +565,10 @@ h5, .carousel-caption > p {
     background-image: url('..//img/delivery.png');
 }
 
+.project-10 {
+    background-image: url('..//img/laravel-news.jpg');
+}
+
 
 h4 {
     font-weight: 500;
